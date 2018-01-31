@@ -10,5 +10,9 @@ server.use(bp.json());
 
 // Write your Routes Here! 
 
+server.post('/api/register', (req, res) => {
+    res.json({ id: '1' })
+})
+
 
 module.exports = server;
